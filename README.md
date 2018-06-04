@@ -23,9 +23,18 @@ Then the ARUCO detection code is used to detect the orientation of the scissors.
 You can see 2 circles on the screen at output.  Since I really only care about the direction of the human and tool on the horizontal plane and within a general 4 quadrants (hence the 4 sided marker cube, since the navigation program does the rest) I just show the orientations of the tool and the human using this. 
 
 ## To Run
+
+Make sure you have printed out the ARUCO Markers 1-4 and created a 4 sided ARUCO cube to track a tool, or just use 1 if you'd like.
+
+First Make sure you have all the dependencies for tensorflow, and tf-pose-estimation (here)(https://github.com/ildoonet/tf-pose-estimation).  I actually use an older version (I'm not keeping this up to date), so you can just download my folder with all the code.  I give credit where it is due, I have changed several files but the vast majority of the work was done by @ildoonet.
+
+navigate to tf-openpose/src, then run:
+
 ```
-TODO: Write code to run project.
+python estimatePoseOrientationVideo.py
 ```
+
+There is some future work to do in tracking specific sides of the tool which which hasn't been done in this code. 
 
 ## Video
 
