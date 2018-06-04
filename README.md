@@ -28,7 +28,7 @@ Make sure you have printed out the ARUCO Markers 1-4 and created a 4 sided ARUCO
 
 First Make sure you have all the dependencies for tensorflow, and tf-pose-estimation (here)(https://github.com/ildoonet/tf-pose-estimation).  I actually use an older version (I'm not keeping this up to date), so you can just download my folder with all the code.  I give credit where it is due, I have changed several files but the vast majority of the work was done by @ildoonet.
 
-navigate to tf-openpose/src, then run:
+Navigate to src, then run:
 
 ```
 python estimatePoseOrientationVideo.py
