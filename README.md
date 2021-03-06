@@ -40,6 +40,6 @@ There is some future work to do in tracking specific sides of the tool which whi
 
 Here is a gif of my final output.  It worked surprisingly better than what I expected, but still is quite a rough prototype.
 
-![](https://gifs.com/gif/tool-pose-display-XL3nkW)
+![image](https://j.gifs.com/XL3nkW.gif)
 
 [Tool/Human Pose Predict](https://www.youtube.com/watch?v=dwwHXLx3BIo)
