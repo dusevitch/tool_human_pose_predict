@@ -1,11 +1,15 @@
-# tool_human_pose_predict
-Using openCV and Deep learning openPose Tensorflow we predict the pose of a tool and upper human and relate them.
+This was a super basic project I did for my Computer Vision class in 2017.
 
-The goal of this project was to use a single camera to detect the pose of both a surgeon and the tool held by a surgeon to accurately represent the correct orientation of a tool for a particular image-guided surgical navigation method not mentioned here. I wanted to relate the pose of the human with the pose of the tool using minimal equipment.  Here I use deep learning methods from the openPose project done by CMU, except I use the tensorflow version [tf-pose-estimation](https://github.com/ildoonet/tf-pose-estimation) that turned out to be very useful and work alright if you want to run openPose and you don't have a screaming GPU or want to mess with CUDA.
+# tool_human_pose_predict
+Using openCV and Deep Learning (OpenPose) we predict the pose of a tool and upper human and relate them.
+
+The goal of this project was to use a single camera to detect the pose of both a surgeon and the tool held by a surgeon to accurately represent the correct orientation of a tool for a virtual reality image-guided surgical navigation method. 
+
+Research shows that orientation tasks are accomplished significantly faster and are much easier when context for the orinetation is given in the object frame oriented by the person in under 45 degrees from their view ([link to paper]()). I wanted to relate the pose of the human with the pose of the tool using minimal equipment.  Here I use deep learning methods from the openPose project done by CMU, except I use the tensorflow version [tf-pose-estimation](https://github.com/ildoonet/tf-pose-estimation) that worked farily well if you want to run openPose and you don't have a screaming GPU (CPU-based).
 
 This project consists of 2 parts:
 
-1) Basic Human Upper-Body Pose Direction Prediction 
+1) Basic Human Upper-Body Pose Direction Prediction
 2) Basic Tool Pose Direction Prediction
 
 ## Basic  Human Pose Prediction
