@@ -42,4 +42,4 @@ Here is a gif of my final output.  It worked surprisingly better than what I exp
 
 ![image](https://j.gifs.com/XL3nkW.gif)
 
-[Tool/Human Pose Predict](https://www.youtube.com/watch?v=dwwHXLx3BIo)
+[Tool/Human Pose Predict Video](https://www.youtube.com/watch?v=dwwHXLx3BIo)
